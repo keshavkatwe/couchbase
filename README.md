@@ -8,7 +8,6 @@ Step 3: Restart xampp. And it is good to go.
 
 Example Code:
 <pre>
-<?php
 //connection to cluster
 $clusterConnection = new CouchbaseCluster('couchbase://localhost');
 //connection to bucket
