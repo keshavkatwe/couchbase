@@ -4,7 +4,9 @@ Step 1: First make sure you have install <b>xampp with php 5.5</b> version in wi
 
 Step 2: Copy <b>php_couchbase.dll</b> to <b>C:\xampp\php\ext</b>. And copy file <b>libcouchbase.dll</b> to <b>C:\xampp\php</b> and <b>C:\xampp\apache\bin</b>.
 
-Step 3: Restart xampp. And it is good to go.
+Step 3: Add <b>extension=php_couchbase.dll</b> line to php.ini
+
+Step 4: Restart Xampp. And it is good to go.
 
 Example Code:
 <pre>
